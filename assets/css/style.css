@@ -251,18 +251,21 @@ a{
   color: white;
   background-color: rgb(255,90,90);
   border: 1px solid rgb(255,90,90);
+  font-weight: bold;
   transition-duration: .5s;
 }
 .post-tag:nth-child(3n-1):hover{
   color: white;
   background-color: rgb(98,170,255);
   border: 1px solid rgb(98,170,255);
+  font-weight: bold;
   transition-duration: .5s;
 }
 .post-tag:nth-child(3n):hover{
   color: white;
   background-color: rgb(154,133,255);
   border: 1px solid rgb(154,133,255);
+  font-weight: bold;
   transition-duration: .5s;
 }
 
@@ -417,6 +420,7 @@ a{
   background-color: rgb(154,133,255);
   border: 1px solid rgb(154,133,255);
   color: white;
+  font-weight: bold;
   -webkit-animation-name: tadatag;
           animation-name: tadatag;
   -webkit-animation-duration: .5s;
@@ -429,6 +433,7 @@ a{
   background-color: rgb(255,210,32);
   border: 1px solid rgb(255,210,32);
   color: white;
+  font-weight: bold;
   -webkit-animation-name: tadatag;
           animation-name: tadatag;
   -webkit-animation-duration: .5s;
@@ -441,6 +446,7 @@ a{
   background-color: rgb(98,170,255);
   border: 1px solid rgb(98,170,255);
   color: white;
+  font-weight: bold;
   -webkit-animation-name: tadatag;
           animation-name: tadatag;
   -webkit-animation-duration: .5s;
