@@ -1,0 +1,18 @@
+---
+layout: default
+title: 徐金琦的个人博客
+page-title: My name is xSeven.
+home-title: Just for fun !
+description: This is my personal blog.
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+      {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}

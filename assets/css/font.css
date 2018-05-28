@@ -1,0 +1,12 @@
+/* ffad_matro字体 */
+@font-face {
+    font-family: 'ffad_matroregular';
+    src: url('../fonts/ffad_matro/ffad_matro-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ffad_matro/ffad_matro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ffad_matro/ffad_matro-webfont.woff2') format('woff2'),
+         url('../fonts/ffad_matro/ffad_matro-webfont.woff') format('woff'),/* Modern Browsers */
+         url('../fonts/ffad_matro/ffad_matro-webfont.ttf') format('truetype'),/* Safari, Android, iOS */
+         url('../fonts/ffad_matro/ffad_matro-webfont.svg#ffad_matroregular') format('svg');/* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}

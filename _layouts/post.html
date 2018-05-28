@@ -1,0 +1,61 @@
+<!-- 博文的布局-Layout -->
+<!DOCTYPE html>
+<html>
+<!-- 引入head标签 -->
+{% include head.html %}
+<body>
+
+<!-- 顶部锚点 -->
+<a id="htmlup" name="htmlup"></a>
+<!-- 引入博文顶部选项 -->
+{% include post-header.html %}
+<!-- 引入移动下拉选项 -->
+{% include boot.html %}
+<!-- 引入博文顶部样式 -->
+{% include post-title.html %}
+<div class="markdown-body fadeInUp animated">
+  
+  {% if page.subtitle %}
+    <div class="postpage-subtitle" style="border-left: 8px solid {{ page.color }}; border-right: 8px solid {{ page.color }}">
+      {{ page.subtitle }}
+    </div>
+  {% endif %}
+
+  <!-- 文章内容 -->
+  {{ page.content }}
+  <!-- 引入share模块 -->
+  {% include share.html %}
+</div>
+
+<!-- 底部锚点 -->
+<a id="htmldown" name="htmldown"></a>
+<!-- 引入评论模块 -->
+{% include comment.html %}
+<!-- 引入goto模块 -->
+{% include goto.html %}
+<!-- 引入页面底部模块 -->
+{% include footer.html %}
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        // offset: 600,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+    window.onbeforeunload = function(){
+        //刷新后页面自动回到顶部
+        document.documentElement.scrollTop = 0;  //ie下
+        document.body.scrollTop = 0;  //非ie
+    }
+</script>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
