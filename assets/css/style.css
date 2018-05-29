@@ -336,6 +336,8 @@ a{
     background-color: white;
     border-radius: 3px;
     border: 1px solid #e7eaf1;
+    -webkit-box-shadow: 0 1px 3px rgba(0,37,55,.06);
+            box-shadow: 0 1px 3px rgba(0,37,55,.06);
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-transition-duration: .4s;
@@ -483,6 +485,19 @@ a{
   margin-top: 15px;
   margin-bottom: 10px;
   color: #555;
+}
+
+.ex-list li:nth-child(n+1) .tag-post:nth-child(3n-2):hover{
+  color:rgb(98,170,255);
+  font-weight: bold;
+}
+.ex-list li:nth-child(n+1) .tag-post:nth-child(3n-1):hover{
+  color:rgb(154,133,255);
+  font-weight: bold;
+}
+.ex-list li:nth-child(n+1) .tag-post:nth-child(3n):hover{
+  color:rgb(255,210,32);
+  font-weight: bold;
 }
 
 .markdown-body{
