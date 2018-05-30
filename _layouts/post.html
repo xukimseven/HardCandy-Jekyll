@@ -14,11 +14,17 @@
 <!-- 引入博文顶部样式 -->
 {% include post-title.html %}
 <div class="markdown-body fadeInUp animated">
-  
+
   {% if page.subtitle %}
-    <div class="postpage-subtitle" style="border-left: 8px solid {{ page.color }}; border-right: 8px solid {{ page.color }}">
-      {{ page.subtitle }}
-    </div>
+    {% if page.color.size==0 or page.color==nil %}
+      <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
+        {{ page.subtitle }}
+      </div>
+    {% else %}
+      <div class="postpage-subtitle" style="border-left: 8px solid {{ page.color }}; border-right: 8px solid {{ page.color }}">
+        {{ page.subtitle }}
+      </div>
+    {% endif %}
   {% endif %}
 
   <!-- 文章内容 -->
