@@ -1,50 +1,48 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="keywords" content="{{ site.keywords }}" />
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/media.css">
-    <link rel="stylesheet" href="/assets/css/animate.min.css">
-    <link rel="stylesheet" href="/assets/css/pygments/pygments_{{ site.pygmentsTheme }}.css">
-    <link rel="stylesheet" href="/assets/css/github-markdown.css">
-    <!-- SNS-icon -->
-    <script src="/assets/fonts/sns/iconfont.js"></script>
-    <!-- share.css -->
-    <link rel="stylesheet" href="/assets/css/share.min.css">
-    <!-- font -->
-    <link rel="stylesheet" href="/assets/css/font.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
-    
-    <!-- Favicon -->
-    <link href="/assets/profile.jpeg" rel="shortcut icon" />
-    <link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
-    <!-- Android Lolipop Theme Color -->
-    <!-- <meta name="theme-color" content="#1464FB"> -->
-    <title>{{ page.title }}</title>
-    <!-- 百度统计 -->
-    {% if site.baidu %}
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-url }}";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-    {% endif %}
-    <!-- 谷歌分析 -->
-    {% if site.google %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ google-ID }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-sclable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="{{ site.description }}" />
+<meta name="keywords" content="{{ site.keywords }}" />
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/media.css">
+<link rel="stylesheet" href="/assets/css/animate.min.css">
+<link rel="stylesheet" href="/assets/css/pygments/pygments_{{ site.pygmentsTheme }}.css">
+<link rel="stylesheet" href="/assets/css/github-markdown.css">
+<!-- SNS-icon -->
+<script src="/assets/fonts/sns/iconfont.js"></script>
+<!-- share.css -->
+<link rel="stylesheet" href="/assets/css/share.min.css">
+<!-- font -->
+<link rel="stylesheet" href="/assets/css/font.css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico|Ubuntu|Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
 
-      gtag('config', '{{ google-ID }}');
-    </script>
-    {% endif %}
-</head>
+<!-- Favicon -->
+<link href="/assets/profile.jpeg" rel="shortcut icon" />
+<link href="/assets/profile.jpeg" rel="apple-touch-icon-precomposed" />
+<!-- Android Lolipop Theme Color -->
+<!-- <meta name="theme-color" content="#1464FB"> -->
+<title>{{ page.title }}</title>
+<!-- 百度统计 -->
+{% if site.baidu %}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-url }}";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+{% endif %}
+<!-- 谷歌分析 -->
+{% if site.google %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google-ID }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ google-ID }}');
+</script>
+{% endif %}
