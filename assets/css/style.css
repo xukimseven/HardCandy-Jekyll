@@ -7,7 +7,7 @@ html{
     /*background-size: 100%;*/
     background-position: center;
     /*background-color: white;*/
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu;
 }
 /*html::-webkit-scrollbar{
   display: none;
@@ -41,7 +41,7 @@ a{
   color: #444;
   /*display: block;*/
   /*font-family: 'Kaushan Script', cursive;*/
-  font-family: 'Pacifico', cursive;
+  font-family: Pacifico;
 }
 .top-nav{
     height: 100%;
@@ -132,7 +132,7 @@ a{
     /*font-weight: 600;*/
     color: #555;
     /*font-family: 'Kaushan Script', cursive;*/
-    font-family: 'Pacifico', cursive;
+    font-family: Pacifico;
 }
 .top span:nth-child(2){
     display: block;
@@ -145,7 +145,7 @@ a{
     margin: 0 auto;
     font-weight: normal;
     color: #555;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu;
     top: 280px;
     font-size: 25px;
 }
@@ -160,7 +160,7 @@ a{
     margin: 0 auto;
     font-weight: normal;
     color: #555;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu;
     top: 330px;
     font-size: 25px;
 }
@@ -175,7 +175,7 @@ a{
     margin: 0 auto;
     font-weight: normal;
     color: #555;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu;
     top: 360px;
     font-size: 25px;
 }
@@ -608,7 +608,7 @@ a{
   font-size: 35px;
   font-weight: 600;
   color: rgba(0,0,0,0.2);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
 }
