@@ -89,3 +89,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+  font-family: "YaHei Consolas Hybrid";
+  src: url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.woff2") format("woff2"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.woff") format("woff"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.ttf") format("truetype"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.eot") format("embedded-opentype"),
+       url("../fonts/YaHei Consolas Hybrid/YaHei Consolas Hybrid.svg") format("svg");
+}
