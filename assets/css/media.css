@@ -108,6 +108,11 @@
   #media{
     display: block;
   }
+
+  /* 标签页文章链接字体 */
+  .tag-post{
+    font-size: 14px;
+  }
 }
 
 @media screen and ( max-width: 600px ){
