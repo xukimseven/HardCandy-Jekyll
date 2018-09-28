@@ -24,16 +24,17 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
-SNS-icon: #['facebook', 'weibo', 'QQ', 'github', 'Dribbble', 'twitter', 'instagram', 'weixin']
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: '' # your wechat image file path
-  QQ: '' # your QQ image file path
+  weixin: '' # 你的微信二维码存放的地址
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: ''
+  Codepen: ''
   weibo: ''
   instagram: ''
-  twitter: ''
-  github: ''
+  Twitter: ''
   Dribbble: ''
-  facebook: ''
+  Facebook: ''
   Google: ''
   zhihu: ''
   juejin: ''

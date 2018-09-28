@@ -170,25 +170,34 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 ```yaml
 # SNS
 SNS: true
-SNS-icon: #['mail', 'weixin', 'QQ', 'weibo', 'instagram', 'twitter', 'github', 'Dribbble' 'facebook', 'Google', 'zhihu', 'juejin', 'twitch']
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'mailto:abc@gmail.com'
-  weixin: '' # your wechat image file path
-  QQ: '' # your QQ image file path
+  weixin: '' # 你的微信二维码存放的地址
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: ''
+  Codepen: ''
   weibo: ''
   instagram: ''
-  twitter: ''
-  github: ''
+  Twitter: ''
   Dribbble: ''
-  facebook: ''
+  Facebook: ''
   Google: ''
   zhihu: ''
   juejin: ''
   twitch: ''
 ```
 
-​	主题一共配置了 13种 社交媒体的图标，只要在需要开启的社交账号的名字后填写你的个人主页链接即可，不需要开启的就在那一行的头部用 `#` 注释这一行即可。同样的，如果需要更换每个图标的排列位置，只需要改变他们的每一行排列的顺序即可。
+​	~~主题一共配置了 13种 社交媒体的图标，只要在需要开启的社交账号的名字后填写你的个人主页链接即可，不需要开启的就在那一行的头部用 `#` 注释这一行即可。同样的，如果需要更换每个图标的排列位置，只需要改变他们的每一行排列的顺序即可。~~
 
 ​	在 `SNS` 后填写  `true` 或者 `false` 来打开或者关闭这一部分。
+
+2018/09/28 更新：
+
+![7](/screenshot/sns-icon.png)
+
+- 更新社交图标为 线上地址 ，便于管理与修改。
+- 添加 **Codepen** 图标
+- 修改原来的圆形图标为不规则图标
 
 
 
@@ -261,6 +270,12 @@ pygmentsTheme: 'default'
 }
 ```
 ~~~
+
+2018/09/28 更新：
+
+![7](/screenshot/博客代码高亮例子.png)
+
+上图为 **代码高亮试例图** ，仅以 html 作为参考例子，其他代码参考 上图，或自行切换测试选择自己喜欢的代码高亮主题
 
 
 
