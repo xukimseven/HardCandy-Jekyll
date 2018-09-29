@@ -6,14 +6,14 @@
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
   color: #24292e;
   /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
   /*font-family: 'Source Sans Pro', sans-serif;*/
   /*font-family: 'Ubuntu', sans-serif;*/
   font-family: SourceSansPro;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 17px;
+  line-height: 1.8;
   word-wrap: break-word;
 }
 
@@ -274,35 +274,90 @@
 }
 
 .markdown-body h1 {
-  font-size: 35px;
+  position: relative;
+  font-size: 30px;
   font-weight: 600;
   /*text-align: center;*/
   border-left: 8px solid #9A85FF;
   background-color: #fafbfc;
-  padding: 25px 15px;
+  padding: 27px 15px;
+  margin: 50px 0 30px;
+}
+.markdown-body h1::after{
+  content:"h1";
+  color: #999;
+  position: absolute;
+  display: block;
+  font-size: 14px;
+  height: auto;
+  width: auto;
+  top: 7px;
+  right: 7px;
 }
 
 .markdown-body h2 {
+  position: relative;
   font-size: 28px;
   font-weight: 600;
   /*text-align: center;*/
-  border-left: 8px solid rgb(255,210,32);
+  border-left: 7px solid rgb(255,210,32);
   background-color: #fafbfc;
-  padding: 23px 15px;
+  padding: 22px 15px;
+  margin: 35px 0 30px;
+}
+.markdown-body h2::after{
+  content:"h2";
+  color: #999;
+  position: absolute;
+  display: block;
+  font-size: 14px;
+  height: auto;
+  width: auto;
+  top: 7px;
+  right: 7px;
 }
 
 .markdown-body h3 {
+  position: relative;
   font-size: 24px;
   font-weight: 600;
   /*text-align: center;*/
-  border-left: 8px solid #ea6323;
+  border-left: 6px solid #ea6323;
   background-color: #fafbfc;
-  padding: 20px 15px;
+  padding: 17px 15px;
+  margin: 30px 0 26px;
+}
+.markdown-body h3::after{
+  content:"h3";
+  color: #999;
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  height: auto;
+  width: auto;
+  top: 7px;
+  right: 7px;
 }
 
 .markdown-body h4 {
+  position: relative;
   font-size: 22px;
   font-weight: 600;
+  border-left: 5px solid #234567;
+  background-color: #fafbfc;
+  padding: 15px 15px;
+  margin: 30px 0 26px;
+}
+.markdown-body h4::after{
+  content:"h4";
+  color: #999;
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  height: auto;
+  width: auto;
+  top: 7px;
+  right: 7px;
 }
 
 .markdown-body h5 {
@@ -318,7 +373,7 @@
 .markdown-body p {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .markdown-body blockquote {
@@ -488,9 +543,10 @@
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
+  /*margin-top: 24px;
+  margin-bottom: 16px;*/
+  /*font-weight: 600;*/
+  font-weight: normal;
   line-height: 1.25;
 }
 
@@ -525,7 +581,7 @@
 
 .markdown-body h1 {
   /*padding-bottom: 0.3em;*/
-  font-size: 2em;
+  font-size: 1.75em;
   /*border-bottom: 1px solid #eaecef;*/
 }
 
@@ -738,6 +794,7 @@
 @media screen and (max-width: 500px){
   .markdown-body,.markdown-body p{
     font-size: 16px;
+    font-weight: 300;
   }
   .markdown-body .highlight pre,
   .markdown-body pre {
