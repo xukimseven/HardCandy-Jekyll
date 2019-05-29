@@ -6,8 +6,12 @@
 {% include head.html %}
 </head>
 <body>
+{% include header.html %}
+{% include boot.html %}
 <!-- 页面主体 -->
 {{ content }}
+
+{% include footer.html %}
 
 <!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
