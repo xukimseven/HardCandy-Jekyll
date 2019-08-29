@@ -3,6 +3,10 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="description" content="{{ site.description }}" />
 <meta name="keywords" content="{{ site.keywords }}" />
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/media.css">
 <link rel="stylesheet" href="/assets/css/animate.min.css">
@@ -46,3 +50,11 @@ var _hmt = _hmt || [];
   gtag('config', '{{ site.google-ID }}');
 </script>
 {% endif %}
+<script type="text/javascript">
+	$(document).ready(function() {
+	    //为超链接加上target='_blank'属性
+		$('a[href^="http"]').each(function() {
+			$(this).attr('target', '_blank');
+		});
+	});
+</script>
