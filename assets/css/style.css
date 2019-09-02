@@ -195,6 +195,10 @@ a{
     -webkit-transition-duration: .4s;
             transition-duration: .4s;
 }
+.post-list-item{
+  width: 720px;
+  margin: 0 auto;
+}
 .post-list li:hover{
     -webkit-box-shadow: 0 1px 10px #777;
             box-shadow: 0 1px 10px #777;
