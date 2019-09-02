@@ -309,6 +309,15 @@ a{
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
 }
+.page-nav{
+  margin: 0 auto;
+  font-size: 16px;
+  text-align:center;
+}
+.nav-input{
+  width:40px;
+  text-align:center;
+}
 
 
 #bottom{

@@ -1,3 +1,4 @@
+<div>
 <nav class="pagination">
   <div class="page-links">
     {% if paginator.page == 1 %}
@@ -28,3 +29,22 @@
   </div>
 
 </nav>
+<div class="page-nav">
+  <p>
+    <script type="text/javascript" src="/assets/js/page_nav.js"></script>
+    <form action="" method="GET" name="form">
+      page:
+      <input value="{{paginator.page}}" type="number" id="page_input" class="nav-input">
+      / {{paginator.total_pages}}
+      &nbsp;
+      <input value="GO" type="submit" onClick="pageGo({{paginator.total_pages}})">
+    </form>
+  </p>
+  <p>
+    <!-- page size: {{paginator.per_page}} -->
+    &nbsp;&nbsp;
+    total: {{paginator.total_posts}}
+  </p>
+</div>
+
+</div>
