@@ -1,20 +1,20 @@
 ---
 layout: post
-title: 'Hello Jekyll'
-date: 2017-04-18
+title: '세미 프로젝트'
+date: 2019-08-26
 author: Jekyll
 color: rgb(255,210,32)
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: jekyll
+cover: '../assets/coc2.png'
+tags: 세미프로젝트 coc 여행계획플랫폼 서울
 ---
 
 > Transform your plain text into static websites and blogs.
 
-# Welcome
+# 세미프로젝트
 
-## Welcome
+## Creat or Choice
 
-### Welcome
+### 서울 여행 계획 가이드 플랫폼
 
 This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.
 

@@ -6,39 +6,26 @@ url: 'https://minhaHwnag.github.io/' # your host
 
 # nav：&emsp;
 nav: 
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  메인: '/'
+  태그: '/tags.html'
+  경력: '/timeline.html'
+  소개: '/about.html'
 
 # 博主
 author: true
 name: 'Minha Hwang'
 NickName: 'Elliot Hwang'
 webtitle: 'Portfolio'
-bio: 'your awesome bio'
 about: true
-aboutyou: 'Minha?'
+aboutyou: '2019년 03월 12일 KH정보교육원 강남지원 32회차 JAVA프레임워크 개발자 양성과정 수료'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
   mail: 'minha0616@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: ''
-  Codepen: ''
-  weibo: ''
   instagram: ''
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
 
 paginate: 2
 paginatepath: ['page:num']
