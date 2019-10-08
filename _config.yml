@@ -1,11 +1,11 @@
 # Site settings 配置站点
 title: 'Minha Portfolio'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
+description: 'JAVA WEB DEVELOPER'
+keywords: '성실함, 그리고 꾸준함'
 url: 'https://minhaHwnag.github.io/' # your host
 
-# nav 中文字符空格：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
+# nav：&emsp;
+nav: 
   首页: '/'
   标签: '/tags.html'
   时间线: '/timeline.html'
@@ -19,7 +19,7 @@ NickName: 'Elliot Hwang'
 webtitle: 'Portfolio'
 bio: 'your awesome bio'
 about: true
-aboutyou: 'your introduction'
+aboutyou: 'Minha?'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
@@ -40,51 +40,49 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   juejin: ''
   twitch: ''
 
-# 分页
 paginate: 2
 paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2019
 
 # Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-# 代码高亮 使用rouge
+# rouge
 highlighter: rouge
-# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+# autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 
 pygmentsTheme: 'default'
 
-# 友情链接
-friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+#friends:
+#  jekyll: 'https://www.jekyll.com.cn/'
 
-# 评论 最佳体验 在disqus、livere和Gitment之间三选一
-# disqus 评论
+#disqus、livere Gitment
+# disqus 
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
-# 来必力评论
+#
 livere: true
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
+# Gitment  OAuth Application
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+Gitment_owner: ''  # githu
+Gitment_repo: ''  # github
+client_id: ''  #  OAuth Application client_id
+client_secret: ''  # OAuth Application client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
 social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
-# 百度统计 在baidu-url里填写自己相关的url代码
+#
 baidu: true
 baidu-url: ''
-# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+#
 google: false
 google-ID: ''
 
-# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+#
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)

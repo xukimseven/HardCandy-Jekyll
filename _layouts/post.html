@@ -30,22 +30,15 @@
     {% endif %}
   {% endif %}
 
-  <!-- 文章内容 -->
   {{ page.content }}
-  <!-- 引入share模块 -->
   {% include share.html %}
 </div>
 
-<!-- 底部锚点 -->
 <a id="htmldown" name="htmldown"></a>
-<!-- 引入评论模块 -->
 {% include comment.html %}
-<!-- 引入goto模块 -->
 {% include goto.html %}
-<!-- 引入页面底部模块 -->
 {% include footer.html %}
 
-<!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
 <script>
     var wow = new WOW({
@@ -57,10 +50,8 @@
     });
     wow.init();
 </script>
-<!-- 页面刷新回到顶部 -->
 <script>
     window.onbeforeunload = function(){
-        //刷新后页面自动回到顶部
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
     }

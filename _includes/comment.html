@@ -16,7 +16,7 @@
       (function() { // DON'T EDIT BELOW THIS LINE
         var d = document,
           s = d.createElement('script');
-        /*写入自己的disqus信息*/
+        /*disqus*/
         s.src = '{{ site.disqus_url }}';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
@@ -31,7 +31,7 @@
       <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
     </section>
 
-    <!-- 来必力City版安装代码 -->
+    <!-- City -->
     <script type="text/javascript">
        (function(d, s) {
            var j, e = d.getElementsByTagName(s)[0];
@@ -45,8 +45,7 @@
            e.parentNode.insertBefore(j, e);
        })(document, 'script');
     </script>
-    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-    <!-- City版安装代码已完成 -->
+    <noscript>JavaScript</noscript>
 
 {% endif %}
 
@@ -59,7 +58,7 @@
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: '{{ page.id }}', // 可选。默认为 location.href
+  id: '{{ page.id }}', // location.href
   owner: '{{ site.Gitment_owner }}',
   repo: '{{ site.Gitment_repo }}',
   oauth: {
