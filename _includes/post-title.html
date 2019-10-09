@@ -31,21 +31,21 @@
       <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#9A85FF;"><sapn class="main">{{ page.previous.title }}</sapn></span></div>
     {% else %}
       <a href="javascript:;" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='#9A85FF';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
-      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#9A85FF;"><sapn class="main">没有下一页咯</sapn></span></div>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:#9A85FF;"><sapn class="main">테스트 1</sapn></span></div>
     {% endif %}
   </div>
 
   <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     {% if page.next.url %}
-      <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>上一篇<br><br>{{ page.next.title }}</span></a>
+      <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>테스트2<br><br>{{ page.next.title }}</span></a>
     {% else %}
-      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>没有上一篇咯</span></a>
+      <a href="javascript:;" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>테스트3</span></a>
     {% endif %}
     {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>下一篇<br><br>{{ page.previous.title }}</span></a>
+      <a href="{{ page.previous.url }}" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>테스트4<br><br>{{ page.previous.title }}</span></a>
     {% else %}
-      <a href="javascript:;" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>没有下一篇咯</span></a>
+      <a href="javascript:;" class="rightchange" style="border-left: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span><br>테스트5</span></a>
     {% endif %}
   </div>
 </div>
@@ -58,7 +58,7 @@
       <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><sapn class="main">{{ page.next.title }}</sapn></span></div>
     {% else %}
       <a href="javascript:;" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='{{ page.color }}';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
-      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><sapn class="main">没有上一页咯</sapn></span></div>
+      <div id="left-tab" style="display:none;"><span class="left-san"></span><span class="left-main" style="color:{{ page.color }};"><sapn class="main">테스트6</sapn></span></div>
     {% endif %}
   </div>
   <div class="post-titlearea">
@@ -73,7 +73,7 @@
       <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:{{ page.color }};"><sapn class="main">{{ page.previous.title }}</sapn></span></div>
     {% else %}
       <a href="javascript:;" class="btn bounceInRight self-animated" onmouseover="showRight();this.style.color='{{ page.color }}';" onmouseout="goneRight();this.style.color='rgba(0,0,0,.2)';">></a>
-      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:{{ page.color }};"><sapn class="main">没有下一页咯</sapn></span></div>
+      <div id="right-tab" style="display:none;"><span class="right-san"></span><span class="right-main" style="color:{{ page.color }};"><sapn class="main">테스트7</sapn></span></div>
     {% endif %}
   </div>
 
