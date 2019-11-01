@@ -1,16 +1,16 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
+title: 'HSM's Blog'
+description: 'Little Step'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+url: 'https://hsmint.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  Home: '/'
+  Tags: '/tags.html'
+  TimeLine: '/timeline.html'
+  About: '/about.html'
+  Friendlink: '/friendLink.html'
 
 # 博主
 author: true
@@ -25,20 +25,20 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
-  weibo: ''
+  mail: 'mailto:hongsm990724@gmail.com'
+  #weixin: '' # 你的微信二维码存放的地址
+  #qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  github: 'https://www.github.com/hsmint/'
+  #Codepen: ''
+  #weibo: ''
   instagram: ''
   Twitter: ''
-  Dribbble: ''
+  #Dribbble: ''
   Facebook: ''
   Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
+  #zhihu: ''
+  #juejin: ''
+  #twitch: ''
 
 # 分页
 paginate: 2
