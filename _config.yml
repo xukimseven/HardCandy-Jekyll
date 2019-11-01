@@ -14,10 +14,10 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'James Hong / 홍석민'
+NickName: 'HSMINT'
+webtitle: "HSM's Blog"
+bio: '초급 개발자'
 about: true
 aboutyou: 'your introduction'
 portraits: '/assets/profile.jpeg' # your portraits image file path
