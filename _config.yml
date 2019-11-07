@@ -20,7 +20,7 @@ webtitle: "HSM's Blog"
 bio: '초급 개발자'
 about: true
 aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/profile.png' # your portraits image file path
 
 # SNS
 SNS: true
