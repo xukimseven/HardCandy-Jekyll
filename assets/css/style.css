@@ -292,8 +292,8 @@ a{
 }
 .page-link{
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   /*background-color: red;*/
   float: left;
   margin: 10px;
