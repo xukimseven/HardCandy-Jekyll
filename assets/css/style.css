@@ -292,13 +292,13 @@ a{
 }
 .page-link{
   display: block;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   /*background-color: red;*/
   float: left;
   margin: 10px;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 25px;
   text-align: center;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
@@ -324,7 +324,7 @@ a{
   color: #555;
 }
 
-/*tags页面*/
+/*tags*/
 .ex-list li{
     list-style: none;
     display: block;
@@ -859,7 +859,7 @@ a{
   margin-top: 70px;
 }
 
-/*about页面*/
+/*about*/
 .portraits{
   height: 100px;
   width: 100px;
