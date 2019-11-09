@@ -283,8 +283,8 @@ a{
 }
 .page-links{
   /*background-color: blue;*/
-  height: 30px;
-  width: 60px;
+  height: 60px;
+  width: 120px;
   border: 1px solid #e7eaf1;
   border-radius: 3px;
   margin: 0 auto;
@@ -298,7 +298,7 @@ a{
   float: left;
   margin: 10px;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 60px;
   text-align: center;
   -webkit-transition-duration: .5s;
           transition-duration: .5s;
