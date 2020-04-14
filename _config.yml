@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: "my name is cashier blog"
+title: "My name is Cashier blog"
 description: 'chi la mot blog nho nho'
 keywords: 'your web keywords, another keywords'
 url: 'https://nameiscashier.github.io' # your host
@@ -16,7 +16,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 author: true
 name: 'Thu Ngân'
 NickName: 'flstldnjels'
-webtitle: 'nameiscashier.github.io'
+webtitle: 'nameiscashier'
 bio: 'I am curious'
 about: true
 aboutyou: 'Tò mò và đam mê nghệ thuật'
@@ -26,19 +26,19 @@ portraits: '/assets/profile.png' # your portraits image file path
 SNS: true
 SNS-icon: #['Facebook',  'github', 'instagram']
   mail: 'mailto:lamngan1250@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  #weixin: '' # 你的微信二维码存放的地址
+  #qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: 'https://github.com/nameiscashier/nameiscashier.github.io'
-  Codepen: ''
-  weibo: ''
+  #Codepen: ''
+  #weibo: ''
   instagram: 'https://www.instagram.com/flstldnjels__'
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
+  #Twitter: ''
+  #Dribbble: ''
+  #Facebook: ''
+  #Google: ''
+  #zhihu: ''
+  #juejin: ''
+  #twitch: ''
 
 # 分页
 paginate: 2
