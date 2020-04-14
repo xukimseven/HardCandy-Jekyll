@@ -1,13 +1,8 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
+title: 'my name is cashier blog'
+description: 'chi la mot blog nho nho'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
-
-#title: my name is cashier blog
-#description: 'chi la mot blog nho nho'
-#keywords: 'your web keywords, another keywords'
-#url: 'https://nameiscashier.github.io' # your host
+url: 'https://nameiscashier.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
@@ -63,7 +58,7 @@ highlighter: rouge
 pygmentsTheme: 'default'
 
 # 友情链接
-friends:
+friends: 
   jekyll: '' #friendLink
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
