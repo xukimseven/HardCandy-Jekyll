@@ -8,7 +8,7 @@ cover: '../assets/first-post.PNG'
 subtitle: 'Hello, This is first post on my Blog!'
 ---
 
-## Xin chào, bài post đầu tiên của trang :) và tất nhiên mình cũng chả biết nên viết gì vào đây hehe. À có 2 bài nữa nhưng đó là mặc định của Tác giả mình hông có viết nên hông tính nha :3
+### Xin chào, bài post đầu tiên của trang :) và tất nhiên mình cũng chả biết nên viết gì vào đây hehe. À có 2 bài nữa nhưng đó là mặc định của Tác giả mình hông có viết nên hông tính nha :3
 
 Không liên quan nhưng đây là desktop mà mình đang dùng khi làm blog này :)) Hơi bừa xíu kkk
 ![My desktop](https://raw.githubusercontent.com/nameiscashier/nameiscashier.github.io/master/assets/first-post.PNG)
