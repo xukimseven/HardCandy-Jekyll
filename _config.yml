@@ -1,37 +1,37 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
+title: 'Name's Cashier Blog - Trang chủ
+description: 'chi la mot blog nho nho'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+url: 'https://nameiscashier.github.io' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+  Trang chủ: '/'
+  Tags: '/tags.html'
+  Timeline: '/timeline.html'
+  Về tôi: '/about.html'
+  #FriendLink: '/friendLink.html'
 
 # 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'Thu Ngân'
+NickName: 'flstldnjels'
+webtitle: 'nameiscashier.github.io'
+bio: 'I'm curious
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+aboutyou: 'Tò mò và đam mê nghệ thuật'
+portraits: '/assets/profile.png' # your portraits image file path
 
 # SNS
 SNS: true
-SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
+SNS-icon: #['Facebook',  'github', 'instagram']
+  mail: 'mailto:lamngan1250@gmail.com'
   weixin: '' # 你的微信二维码存放的地址
   qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
+  github: 'https://github.com/nameiscashier/nameiscashier.github.io'
   Codepen: ''
   weibo: ''
-  instagram: ''
+  instagram: 'https://www.instagram.com/flstldnjels__'
   Twitter: ''
   Dribbble: ''
   Facebook: ''
@@ -58,8 +58,8 @@ highlighter: rouge
 pygmentsTheme: 'default'
 
 # 友情链接
-friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+friends: false
+  jekyll: '' #friendLink
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
@@ -77,7 +77,7 @@ client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
 
 # Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+social-share-items: ['facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
 baidu: true
