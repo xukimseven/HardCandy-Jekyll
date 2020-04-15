@@ -80,12 +80,12 @@
   <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     {% if page.next.url %}
-      <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span>上一篇<br><br>{{ page.next.title }}</span></a>
+      <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span>Bài trước<br><br>{{ page.next.title }}</span></a>
     {% else %}
       <a href="javascript:;" class="leftchange" style="border-right: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span><br>Không có bài viết trước</span></a>
     {% endif %}
     {% if page.previous.url %}
-      <a href="{{ page.previous.url }}" class="rightchange" style="border-left: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span>下一篇<br><br>{{ page.previous.title }}</span></a>
+      <a href="{{ page.previous.url }}" class="rightchange" style="border-left: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span>Bài tiếp theo<br><br>{{ page.previous.title }}</span></a>
     {% else %}
       <a href="javascript:;" class="rightchange" style="border-left: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span><br>Không có bài viết tiếp theo</span></a>
     {% endif %}
