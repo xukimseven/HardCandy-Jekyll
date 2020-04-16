@@ -1,22 +1,19 @@
-# Site settings 配置站点
+# Site settings
 title: 'your awesome title'
 description: 'your web description'
 keywords: 'your web keywords, another keywords'
-url: 'https://abc.github.io' # your host
+url: 'https://tailtq.github.io'
 
-# nav 中文字符空格：&emsp;
-nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
-  首页: '/'
-  标签: '/tags.html'
-  时间线: '/timeline.html'
-  关于博主: '/about.html'
-  友情链接: '/friendLink.html'
+nav:
+  Home: '/'
+  Tags: '/tags.html'
+  Timeline: '/timeline.html'
+  About: '/about.html'
 
-# 博主
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
+name: 'Tai Le'
+NickName: 'Tai Le'
+webtitle: 'Wild coder'
 bio: 'your awesome bio'
 about: true
 aboutyou: 'your introduction'
@@ -25,22 +22,10 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:abc@gmail.com'
-  weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
-  github: ''
-  Codepen: ''
-  weibo: ''
-  instagram: ''
-  Twitter: ''
-  Dribbble: ''
-  Facebook: ''
-  Google: ''
-  zhihu: ''
-  juejin: ''
-  twitch: ''
+  mail: 'mailto:tai.ltq.learning@gmail.com'
+  github: 'https://github.com/tailtq'
+  Facebook: 'https://facebook.com/quoctai.le97'
 
-# 分页
 paginate: 2
 paginatepath: ['page:num']
 
@@ -52,39 +37,31 @@ footer:
 markdown: kramdown
 kramdown:
   input: GFM
-# 代码高亮 使用rouge
+# Code highlighting using rouge
 highlighter: rouge
-# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
-pygmentsTheme: 'default'
+# The code highlighting theme uses the pygments theme: autumn \ default \ emacs \ friendly \ manni \ murphy \ pastie \ perldoc \ tango Choose any theme name you like and fill it in the single quotes below
+pygmentsTheme: 'friendly'
 
-# 友情链接
-friends:
-  jekyll: 'https://www.jekyll.com.cn/'
-
-# 评论 最佳体验 在disqus、livere和Gitment之间三选一
-# disqus 评论
+# Comment best experience: Choose between disqus, livere and Gitment
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
-# 来必力评论
+
 livere: true
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
-# Gitment评论 OAuth Application
+
 Gitment: false
-Gitment_owner: ''  # github用户名
-Gitment_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+Gitment_owner: ''
+Gitment_repo: ''
+client_id: ''
+client_secret: ''
 
-# Share : weibo, qq, wechat, tencent, douban, qzone, linkedin, diandian, facebook, twitter, google
+# Share : linkedin, facebook, twitter
 social-share: true
-social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
+social-share-items: ['linkedin', 'twitter', 'facebook']
 
-# 百度统计 在baidu-url里填写自己相关的url代码
-baidu: true
-baidu-url: ''
-# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+# Google Analytics: Fill in your tracking ID obtained in Google Analytics in google-ID
 google: false
 google-ID: ''
 
-# 博客头信息备选颜色（该部分在站点中不充当站点变量，将其写在post的头信息中用来充当页面变量）
+# Alternative color of blog header information (this part is not used as a site variable in the site, write it in the post header information to serve as a page variable)
 color: rgb(154,133,255) rgb(255,90,90) rgb(255,210,32) rgb(98,170,255)

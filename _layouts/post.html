@@ -1,8 +1,6 @@
-<!-- 博文的布局-Layout -->
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 引入head标签 -->
 {% include head.html %}
 {% include androidColor.html %}
 </head>
@@ -45,7 +43,6 @@
 <!-- 引入页面底部模块 -->
 {% include footer.html %}
 
-<!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
 <script>
     var wow = new WOW({
@@ -57,12 +54,10 @@
     });
     wow.init();
 </script>
-<!-- 页面刷新回到顶部 -->
 <script>
     window.onbeforeunload = function(){
-        //刷新后页面自动回到顶部
-        document.documentElement.scrollTop = 0;  //ie下
-        document.body.scrollTop = 0;  //非ie
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
     }
 </script>
 <script src="/assets/js/main.js"></script>
