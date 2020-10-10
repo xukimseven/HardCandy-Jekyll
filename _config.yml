@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: 'Name is Cashier Blog'
+title: "Name is Cashier Blog"
 description: 'chi la mot blog nho nho'
 keywords: 'your web keywords, another keywords'
 url: 'https://nameiscashier.github.io' # your host
@@ -17,7 +17,7 @@ author: true
 name: 'Thu Ngân'
 NickName: 'nganlemm'
 webtitle: 'Name is Cashier'
-bio: 'you'll never find a rainbow if you're looking down.'
+bio: 'you will never find a rainbow if you are looking down.'
 about: true
 aboutyou: 'Mình hay tò mò và yêu thích nghệ thuật. Thắc mắc gì về các bài viết hay website thì liên hệ mình bằng những đường link bên dưới nhé.'
 portraits: '/assets/profile.jpg' # your portraits image file path
