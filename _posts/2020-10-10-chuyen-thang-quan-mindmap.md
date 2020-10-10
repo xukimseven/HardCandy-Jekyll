@@ -17,4 +17,4 @@ TMI:
 > Nhưng cũng không có nghĩa ngành mình đang chọn là đúng :D Hi vọng một ngày nào đó mình sẽ không hối hận với quyết định mà mình đã chọn. 
 
 ### Desktop của mình khi đang viết bài post này. Chúc mọi người một ngày vui vẻ!
-![My desktop](https://raw.githubusercontent.com/nameiscashier/nameiscashier.github.io/master/assets/screenshot-2020-10-10-214549.PNG)
+![My desktop](https://raw.githubusercontent.com/nameiscashier/nameiscashier.github.io/master/assets/screenshot-2020-10-10-214549.png)
