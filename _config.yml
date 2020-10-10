@@ -17,10 +17,10 @@ author: true
 name: 'Thu Ngân'
 NickName: 'flstldnjels'
 webtitle: 'Name is Cashier'
-bio: 'I am curious'
+bio: 'you'll never find a rainbow if you're looking down.'
 about: true
 aboutyou: 'Mình hay tò mò và yêu thích nghệ thuật.'
-portraits: '/assets/profile.png' # your portraits image file path
+portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
 SNS: true
