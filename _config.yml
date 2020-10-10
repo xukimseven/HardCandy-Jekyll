@@ -61,7 +61,7 @@ pygmentsTheme: 'default'
 friends: 
   #jekyll: '' #friendLink
   radio: 'https://nameiscashier.github.io/radio/'
-  musics: 'https://nameiscashier.github.io/musics/'
+  #musics: 'https://nameiscashier.github.io/musics/'
 
 # 评论 最佳体验 在disqus、livere和Gitment之间三选一
 # disqus 评论
