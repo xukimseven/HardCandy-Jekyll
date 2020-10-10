@@ -12,7 +12,7 @@ subtitle: 'Sơ đồ tư duy tóm tắt cuộc đời "thằng Quân" trong Chuy
 
 
 TMI:
-> Mình đang học ở HCM và ngành mình đang theo học là Quản trị Nhà hàng hehe
+> Mình đang học ở HCM và ngành mình đang theo học là Quản trị Nhà hàng hehe.
 > Mình cảm thấy mình khá giỏi trong việc sử dụng máy tính, ứng dụng, phần mềm,.. nhưng mình không quyết định theo học ngành IT.
 > Nhưng cũng không có nghĩa ngành mình đang chọn là đúng :D Hi vọng một ngày nào đó mình sẽ không hối hận với quyết định mà mình đã chọn. 
 
