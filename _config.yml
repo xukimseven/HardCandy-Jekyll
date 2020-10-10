@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: "Name is Cashier Blog"
+title: "Name is Cashier's Blog"
 description: 'chi la mot blog nho nho'
 keywords: 'your web keywords, another keywords'
 url: 'https://nameiscashier.github.io' # your host
@@ -15,11 +15,11 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 # 博主
 author: true
 name: 'Thu Ngân'
-NickName: 'flstldnjels'
-webtitle: 'Name is Cashier'
+NickName: 'nganlemm'
+webtitle: 'Name is Cashier's'
 bio: 'you'll never find a rainbow if you're looking down.'
 about: true
-aboutyou: 'Mình hay tò mò và yêu thích nghệ thuật.'
+aboutyou: 'Mình hay tò mò và yêu thích nghệ thuật. Thắc mắc gì về các bài viết hay website thì liên hệ mình bằng những đường link bên dưới nhé!'
 portraits: '/assets/profile.jpg' # your portraits image file path
 
 # SNS
@@ -31,7 +31,7 @@ SNS-icon: #['Facebook',  'github', 'instagram']
   github: 'https://github.com/nameiscashier/nameiscashier.github.io'
   #Codepen: ''
   #weibo: ''
-  instagram: 'https://www.instagram.com/flstldnjels__'
+  instagram: 'https://www.instagram.com/dlawndns_'
   #Twitter: ''
   #Dribbble: ''
   #Facebook: ''
